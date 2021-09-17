@@ -1,0 +1,80 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with`a4paper' for UK/EU standard size
+\usepackage[a4paper,top=2cm,bottom=2cm,left=4cm,right=4cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=red]{hyperref}
+
+\title{My first LaTeX article!}
+\author{Stéphane Guillou}
+\date{September 2021}
+
+\begin{document}
+\maketitle
+
+\section{My first section}
+
+Some test \textbf{inside} this \textit{section}. Here I am!
+
+And here I am.
+
+\begin{enumerate}
+    \item Item 1
+    \item Another item
+    \item one last one
+\end{enumerate}
+
+Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?
+
+\begin{itemize}
+    \item another list
+    \item with
+    \item items
+\end{itemize}
+
+\subsection{Heading of level 2}
+
+My second section of text.
+
+\begin{itemize}
+    \item item 1
+    \item item 2
+\end{itemize}
+
+Find some help in the \href{https://www.overleaf.com/learn/latex/Page_size_and_margins}{Overleaf documentation}.
+
+\section{Graphics}
+
+Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list? Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?Unordered list?
+
+\begin{figure}[htbp] % placement setting
+    \centering % horizontal centering
+    \includegraphics[width=0.6\textwidth]{images/Nidarosdom_1857.jpg}
+    \caption{Nidaros Cathedral in Trondheim, Norway (1857)}
+    \label{fig:nidaros}
+\end{figure}
+
+Refer to figure \ref{fig:nidaros} on page \pageref{fig:nidaros}.
+
+\section{Mathematical formulas}
+
+Here is an equation:
+
+\begin{equation}
+    e^{\pi i} + 1 = 0
+    \label{eq:euler}
+\end{equation}
+
+The beautiful equation \ref{eq:euler} is known as Euler's identity.
+
+
+
+\end{document}
